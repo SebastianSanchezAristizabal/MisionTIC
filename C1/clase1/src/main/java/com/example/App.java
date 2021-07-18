@@ -1,5 +1,5 @@
-//package com.example;
-package clase1.src.main.java.com.example;
+package com.example;
+//package clase1.src.main.java.com.example;
 import java.util.Scanner;
 
 /*
@@ -30,7 +30,7 @@ public class App
      */
     public static void Digitos()
     {
-        var sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un valor numérico");
         int numero = sc.nextInt();
         int nDigitos = 0;

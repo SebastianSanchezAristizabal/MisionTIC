@@ -1,3 +1,4 @@
+package com.example;
 import java.util.Scanner;
 
 /*public class HolaQuien {
@@ -9,9 +10,9 @@ import java.util.Scanner;
 
 public class HolaQuien {
     public static void main(String[] args) {
-        var sc = new Scanner(System.in);
-        System.out.println("Por favor ingrese su nombre");
-        var nombre = sc.nextLine();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Por favor ingrese su nombre    ");
+        String nombre = sc.nextLine();
         System.out.println("Hola " + nombre + "!");
         sc.close();
     }
